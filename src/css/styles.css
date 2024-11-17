@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.search-form {
+  background-color: teal;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  border: none;
+  padding: 0;
+  height: 30px;
+  width: 300px;
+  padding-left: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.gallery {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-card {
+  border: 1px solid black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.load-more {
+  display: none;
+  margin: 0 auto;
+}
