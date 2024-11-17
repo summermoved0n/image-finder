@@ -32,9 +32,10 @@ body {
 .gallery {
   padding: 10px;
   display: flex;
-  gap: 10px;
+  gap: 30px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo-card {
@@ -53,6 +54,12 @@ body {
 }
 
 .load-more {
+  cursor: pointer;
+  display: none;
+  margin: 0 auto;
+}
+
+.text-reach-end {
   display: none;
   margin: 0 auto;
 }

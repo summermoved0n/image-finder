@@ -24,6 +24,18 @@ export class PixabayService {
     this.page += 1;
   }
 
+  resetPage() {
+    this.page = 1;
+  }
+
+  currentPage() {
+    return this.page;
+  }
+
+  getPerpage() {
+    return this.perPage;
+  }
+
   getQuery() {
     return this.searchQuery;
   }
